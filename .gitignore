@@ -35,3 +35,65 @@ frontend2/.vite/
 # 部署与本地证书
 deploy/certs/
 
+# === 新增规则（基于项目分析）===
+
+# 测试生成的报告文件
+*_report_*.json
+*_results.json
+*_analysis*.json
+*_inventory.json
+*_summary.md
+*_test_report*.json
+
+# 临时测试文件和二进制文件
+*.bin
+test_*.pdf
+test_*.txt
+tmp_*
+tmp_*.txt
+*_delete_check_*.txt
+
+# 错误日志和部署输出
+*_报错.txt
+*_error.log
+*_deploy_log.txt
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 特定的大型测试文件（明确列出）
+download_test_22.bin
+preview_test_22.bin
+railway_deploy报错.txt
+
+# 其他可能的大型文件（压缩包和测试PDF）
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# 本地数据库文件（如果使用SQLite等）
+*.db
+*.sqlite
+*.sqlite3
+
+# === 备份文件（开发过程中生成的配置备份）===
+*.backup
+*_backup.*
+**/*.backup
+**/*_backup.*
+
+# === 一次性临时测试页面 ===
+idea.html
+backend/simple_test.html
+backend/test_cors.html
+
+# === 重复/冗余的公共文件 ===
+frontend2/public/set-admin-token.html
+frontend2/public/set_admin_token.html
+

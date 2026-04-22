@@ -1,6 +1,6 @@
  embedding model 嵌入模型 字节跳动豆包嵌入 
 - 模型 : doubao-embedding-text-240715
-- API Key : 6674bc28-fc4b-47b8-8795-bf79eb01c9ff
+- API Key : 用户自己申请的apikey
 
 
 完整调用指南

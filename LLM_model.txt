@@ -1,6 +1,6 @@
 LLM模型 DeepSeek 
 - 模型 : deepseek-chat
-- API Key : sk-9189176321ae486c8f755145b59299eb
+- API Key : 用户自己申请的apikey
 
 DeepSeek API DOC:
 Your First API Call
